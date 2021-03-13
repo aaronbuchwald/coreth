@@ -661,7 +661,7 @@ func (vm *VM) CreateHandlers() (map[string]*commonEng.HTTPHandler, error) {
 		errs.Add(handler.RegisterName("snowman", &SnowmanAPI{vm}))
 		enabledAPIs = append(enabledAPIs, "snowman")
 	}
-	if vm.CLIConfig.CorethAdminAPIEnabled {
+	if true {
 		primaryAlias, err := vm.ctx.BCLookup.PrimaryAlias(vm.ctx.ChainID)
 		if err != nil {
 			return nil, fmt.Errorf("failed to get primary alias for chain due to %w", err)
