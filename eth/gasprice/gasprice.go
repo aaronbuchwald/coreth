@@ -32,9 +32,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/params"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/aaronbuchwald/coreth/core/types"
+	"github.com/aaronbuchwald/coreth/params"
+	"github.com/aaronbuchwald/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
 )

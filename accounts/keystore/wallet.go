@@ -29,8 +29,8 @@ package keystore
 import (
 	"math/big"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/core/types"
+	"github.com/aaronbuchwald/coreth/accounts"
+	"github.com/aaronbuchwald/coreth/core/types"
 	ethereum "github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/crypto"
 )

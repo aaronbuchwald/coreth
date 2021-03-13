@@ -43,8 +43,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/aaronbuchwald/coreth/consensus"
+	"github.com/aaronbuchwald/coreth/rpc"
 	mmap "github.com/edsrzf/mmap-go"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/metrics"

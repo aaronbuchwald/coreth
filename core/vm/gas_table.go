@@ -29,7 +29,7 @@ package vm
 import (
 	"errors"
 
-	"github.com/ava-labs/coreth/params"
+	"github.com/aaronbuchwald/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 )

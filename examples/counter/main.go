@@ -22,11 +22,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ava-labs/coreth"
-	"github.com/ava-labs/coreth/core"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/eth"
-	"github.com/ava-labs/coreth/params"
+	"github.com/aaronbuchwald/coreth"
+	"github.com/aaronbuchwald/coreth/core"
+	"github.com/aaronbuchwald/coreth/core/types"
+	"github.com/aaronbuchwald/coreth/eth"
+	"github.com/aaronbuchwald/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/compiler"
 	"github.com/ethereum/go-ethereum/crypto"
@@ -88,7 +88,7 @@ func main() {
 	if gopath == "" {
 		gopath = build.Default.GOPATH
 	}
-	counterSrc, err := filepath.Abs(gopath + "/src/github.com/ava-labs/coreth/examples/counter/counter.sol")
+	counterSrc, err := filepath.Abs(gopath + "/src/github.com/aaronbuchwald/coreth/examples/counter/counter.sol")
 	checkError(err)
 	contracts, err := compiler.CompileSolidity("", counterSrc)
 	checkError(err)

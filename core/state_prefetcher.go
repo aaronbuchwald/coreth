@@ -29,11 +29,11 @@ package core
 import (
 	"sync/atomic"
 
-	"github.com/ava-labs/coreth/consensus"
-	"github.com/ava-labs/coreth/core/state"
-	"github.com/ava-labs/coreth/core/types"
-	"github.com/ava-labs/coreth/core/vm"
-	"github.com/ava-labs/coreth/params"
+	"github.com/aaronbuchwald/coreth/consensus"
+	"github.com/aaronbuchwald/coreth/core/state"
+	"github.com/aaronbuchwald/coreth/core/types"
+	"github.com/aaronbuchwald/coreth/core/vm"
+	"github.com/aaronbuchwald/coreth/params"
 	"github.com/ethereum/go-ethereum/common"
 )
 

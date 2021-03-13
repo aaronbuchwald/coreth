@@ -36,12 +36,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ava-labs/coreth/accounts"
-	"github.com/ava-labs/coreth/accounts/external"
-	"github.com/ava-labs/coreth/accounts/keystore"
-	"github.com/ava-labs/coreth/accounts/scwallet"
+	"github.com/aaronbuchwald/coreth/accounts"
+	"github.com/aaronbuchwald/coreth/accounts/external"
+	"github.com/aaronbuchwald/coreth/accounts/keystore"
+	"github.com/aaronbuchwald/coreth/accounts/scwallet"
 
-	"github.com/ava-labs/coreth/rpc"
+	"github.com/aaronbuchwald/coreth/rpc"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
